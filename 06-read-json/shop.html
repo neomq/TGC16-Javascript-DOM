@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Product Page</h1>
+    <div>
+        <label>Select a product:</label>
+        <select id="product">
+        </select>
+        <button id="btnDisplay">Display Product Details</button>
+    </div>
+    <ul id="details" style="display:none">
+        <li>Product Name:<span id="name"></span></li>
+        <li>Price:<span id="price"></span></li>
+    </ul>
+    <!-- import in Axios first so that our shop.js can use it -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js" integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

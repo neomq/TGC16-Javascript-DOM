@@ -1,0 +1,17 @@
+[
+    {
+        "studentNumber": 1234,
+        "name":"Joe",
+        "gpa": 3
+    },
+    {
+        "studentNumber": 2345,
+        "name":"John",
+        "gpa": 3.5
+    },
+    {
+        "studentNumber": 7689,
+        "name":"Zoe",
+        "gpa":3.5
+    }
+]

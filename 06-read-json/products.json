@@ -1,0 +1,23 @@
+[
+    {
+        "sku":"ACME_HAMMER",
+        "name":"Hammer",
+        "price":30.60
+    },
+    {
+        "sku":"ACME_ANVIL",
+        "name":"Anvil",
+        "price": 100
+    },
+    {
+        "sku":"ACME_SCREWDRIVER",
+        "name":"Screwdriver",
+        "price": 12
+    },
+    {
+        "sku":"ACME_NAILS",
+        "name":"Nails (pack of 20)",
+        "price": 20
+    }
+
+]
