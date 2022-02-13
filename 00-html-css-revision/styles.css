@@ -1,0 +1,31 @@
+/* if we still have an
+element name, we select ALL
+instances of that element.
+The following will select all the <li>
+elements */
+
+li {
+    background-color: skyblue;
+}
+
+li#important {
+    background-color: red;
+}
+
+#important {
+    background-color: yellow;
+}
+
+.good-to-have {
+    background-color: green;
+}
+
+/* child selector */
+#content p {
+    border:1px solid black;
+}
+
+#article > p:first-child {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
