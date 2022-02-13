@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-danger" style="display:none" id="errors"></div>
+        <div>
+            <label>Full Name</label>
+            <input type="text" class="form-control" id="name" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" class="form-control" id="email" />
+        </div>
+        <div>
+            <label>How would you rate your experience?</label>
+            <div class="form-check">
+                <input class="form-check-input rating" type="radio" name="rating" value="excellent" checked>
+                <label class="form-check-label">
+                    Excellent
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input rating" type="radio" name="rating" value="average">
+                <label class="form-check-label">
+                    Average
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input rating" type="radio" name="rating" value="poor">
+                <label class="form-check-label">
+                    Poor
+                </label>
+            </div>
+        </div>
+        <div>
+            <label>How did you hear about us?</label>
+            <div class="form-check">
+                <input class="form-check-input hear-about" 
+                       type="checkbox"
+                       value="tv"/>
+                <label class="form-check-label">
+                    TV
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input hear-about"
+                       type="checkbox"
+                       value="newsletter"/>
+                <label class="form-check-label">Newsletter</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input hear-about"
+                       type="checkbox"
+                       value="word-of-mouth"/>
+                <label class="form-check-label">Word of Mouth</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input hear-about"
+                       type="checkbox"
+                       value="salesperson"/>
+                <label class="form-check-label">Salesperson</label>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3" id="btn">Submit</button>
+    </div>
+
+
+    <script src="validate.js"></script>
+</body>
+
+</html>
